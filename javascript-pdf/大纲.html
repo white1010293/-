@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li{
+      display: flex;
+      justify-content: space-between;
+      padding:5px 10px;
+      border-bottom: 1px solid #999;
+    }
+    span{
+      padding: 1px 5px 1px 3px;
+      border-right: 2px solid rgb(216, 123, 2);
+    }
+    code{
+      font-family: Menlo,Monaco,Consolas,'Courier New',monospace;
+      font-size: .85em !important;
+      color: #000;
+      background-color: #f0f0f0;
+      border-radius: 3px;
+      padding: 0.2em;
+    }
+    div{
+      padding: 5px 0;
+      
+    }
+    div>span:last-child{
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>JavaScript笔记</h2>
+  <div style="height: 3px; background: #777;"></div>
+  <ul>
+    <li>
+      <div>
+        <span>常量与变量</span> <span>进制转换</span> <span>运算符</span> <span>强制数据类型转换</span> 
+      </div>
+      <div>
+        <strong>1</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>流程控制语句</span> <span>三木运算符</span> <span><code>break</code></span> <span><code>continue</code> </span>
+      </div>
+      <div>
+        <strong>11</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>函数</span> <span>数组</span> <span>数组的方法</span> <span>作用域和声明提升</span> <span>选择与冒泡排序 </span>
+      </div>
+      <div>
+        <strong>16</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>ECMA5</code>严格模式</span> <span><code>ECMA5</code>新增数组方法</span> <span>字符串</span> <span>字符串的常用方法</span> 
+      </div>
+      <div>
+        <strong>27</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>字符串验证码</span>  <span>敏感词过滤</span> <span>表单验证</span> 
+      </div>
+      <div>
+        <strong>34</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>对象</span>  <span><code>Math</code></span> <span><code>Date</code></span> <span>定时器</span>
+      </div>
+      <div>
+        <strong>36</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>BOM</code></span>  <span><code>DOM</code></span> <span>获取元素节点</span> <span>获取<code>style</code> </span> <span>属性节点</span> <span>获取子节点</span>
+      </div>
+      <div>
+        <strong>42</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>节点操作</span>  <span><code>this</code></span> <span><code>offset</code>系列属性</span> <span>文档碎片</span> <span>事件函数</span> <span><code>target</code></span> <span>阻止冒泡/</span>
+      </div>
+      <div>
+        <strong>52</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>阻止默认行为</span>  <span>获取当前页面的宽高</span> <span>事件委托</span> <span>事件监听器</span> <span>正则表达式</span> 
+      </div>
+      <div>
+        <strong>62</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>改变 <code>this</code> 指向</span>  <span><code>let/const</code></span> <span>延时器</span> <span>箭头函数</span> <span>解构</span> <span><code>ECMA6</code> 字符串</span> <span><code>ECMA6</code> 新增数组方法</span> <span>集合</span> <br> <span> 数组/对象/集合/字符串 遍历的几种方式</span>
+      </div>
+      <div>
+        <strong>70</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>栈和堆</span>  <span>数据类型：7种</span> <span>扩展运算符</span> <span><code>rest</code>运算符</span> <span>构造函数</span> <span><code>class</code></span> 
+      </div>
+      <div>
+        <strong>79</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>pink构造函数</span>
+      </div>
+      <div>
+        <strong>90</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>运动框架</span>  <span>回调函数</span> 
+      </div>
+      <div>
+        <strong>95</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>phpNow</span> <span>PHP输出</span>  <span>PHP变量</span> <span>php数组</span>
+      </div>
+      <div>
+        <strong>102</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>ajax</code></span> <span>同步和异步</span>  <span><code>try_catch_finally</code></span> <span><code>JSON</code></span>
+      </div>
+      <div>
+        <strong>108</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span>Mysql</span> <span>md5加密</span>  <span>php操作数据库</span> 
+      </div>
+      <div>
+        <strong>115</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>JSONP</code> 跨域</span>
+      </div>
+      <div>
+        <strong>127</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>TCP/UDP</code> 协议</span> <span><code>cookie</code></span>  <span>闭包</span> <span>立即执行函数</span>
+      </div>
+      <div>
+        <strong>129</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>nodeJS</code></span> <span><code>nvm</code></span>  <span><code>gulp</code></span> <span>js模块化历程</span> <span><code>require.js</code> <code>AMD</code>规范</span>
+      </div>
+      <div>
+        <strong>138</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>scss</code></span> <span><code>git</code></span>
+      </div>
+      <div>
+        <strong>150</strong>
+      </div>
+    </li>
+    <li>
+      <div>
+        <span><code>jquery</code></span>
+      </div>
+      <div>
+        <strong>157</strong>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
+
+
